@@ -1,0 +1,471 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+}
+
+/* header part start */
+#header_part {
+    display: flex;
+}
+
+.head_main {
+    width: 50%;
+    margin-top: 112px;
+    margin-left: 90px;
+    padding-right: 50px;
+}
+
+.head_main h1 {
+    font-size: 50px;
+    font-weight: 600;
+    border-left: 4px solid teal;
+    padding-left: 10px;
+    color: gray;
+
+}
+
+.head_main span {
+    font-size: 50px;
+    font-weight: 600;
+    color: teal;
+}
+
+.head_main p {
+    font-size: 15px;
+    color: #333;
+    padding-right: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.head_main h6 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+}
+
+.head_img {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.head_img img {
+    width: 70%;
+}
+
+.head_main .link_button {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(#31977a, #47fff6);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all linear .5s;
+
+}
+.head_main .link_button:hover{
+    box-shadow: 10px 10px 40px teal;
+    border:3px solid #f1f1f1;
+}
+
+/* header part end */
+
+
+
+/* mission part start */
+#mission_part {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+}
+
+#mission_part h1 {
+    font-size: 40px;
+    color: grey;
+    font-weight: 600;
+}
+
+#mission_part span {
+    font-size: 40px;
+    font-weight: 600;
+    color: teal;
+    padding-left: 10px;
+}
+
+.main_mission {
+    display: flex;
+    justify-content: center;
+}
+
+.mission_card {
+    width: 18%;
+    background-color: #3e9590;
+    margin-left: 22px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    transition: all linear .3s;
+
+
+}
+
+.mission_card:hover {
+    opacity: 0.6;
+    border: 3px solid #fff;
+}
+
+.mission_card img {
+    width: 40%;
+
+}
+
+.mission_card h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mission_card p {
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card2 {
+
+    background-color: salmon;
+}
+
+.card3 {
+    background-color: #595284;
+}
+
+
+
+
+/* mission part end */
+
+/* devolaper part start */
+#dev_part {
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}
+
+.dev_inner {
+
+    display: flex;
+
+
+}
+
+.dev_img {
+    width: 50%;
+    position: relative;
+
+}
+
+.dev_img img {
+    width: 50%;
+    vertical-align: middle;
+    position: absolute;
+    top: 32px;
+    left: 37%;
+}
+
+.dev_text {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.dev_text h2 {
+    font-size: 30px;
+    color: grey;
+    font-weight: 600;
+}
+
+.dev_text h2 span {
+    font-size: 30px;
+    font-weight: 600;
+    color: tomato;
+    padding-left: 10px;
+}
+
+.dev_text p {
+    font-size: 15px;
+    color: #333;
+    padding-right: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.dev_text .link_button {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(#31977a, #47fff6);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all linear 1s;
+
+}
+.dev_text .link_button:hover{
+    box-shadow: 10px 10px 40px teal;
+    border:3px solid #f1f1f1;
+}
+
+/* devolaper part end */
+
+/* global part start */
+#global_part {
+    margin-top: 110px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 110px;
+}
+
+.globe_main {
+    display: flex;
+}
+
+.glob_text {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.glob_img {
+    width: 50%;
+    position: relative;
+}
+
+.glob_img img {
+    width: 67%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.glob_text h1 {
+    font-size: 30px;
+    color: grey;
+    font-weight: 600;
+}
+
+.glob_text h1 span {
+    font-size: 30px;
+    font-weight: 600;
+    color: orange;
+    padding-left: 10px;
+}
+
+.glob_text p {
+    font-size: 15px;
+    color: #333;
+    padding-right: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.glob_text .link_button {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(#31977a, #47fff6);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all linear 1s;
+
+}
+.glob_text .link_button:hover{
+    box-shadow: 10px 10px 40px teal;
+    border:3px solid #f1f1f1;
+}
+
+
+/* global part end */
+
+/* service part start */
+/* plan part start */
+.paln_head {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.paln_head h2 {
+
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+    font-weight: 600;
+}
+
+.paln_head h2 span {
+	font-size: 30px;
+	font-weight: 600;
+	color: teal;
+	padding-left: 10px;
+}
+
+.paln_head p {
+
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.plan_card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 21%;
+    background: seashell;
+    text-align: center;
+    height: 425px;
+    border: 1px solid teal;
+    transition: all ease .4s;
+    border-radius: 20px;
+}
+
+.card h1 {
+
+    color: #777;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.card h2 {
+
+    color: #777;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.card hr {
+    background: teal;
+
+}
+
+.card p {
+    font-family: "Poppins", sans-serif;
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card h4 {
+    font-family: "Poppins", sans-serif;
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card .link_button {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(#31977a, #47fff6);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all linear 1s;
+}
+
+.card:hover {
+    background-color: teal;
+    color: #fff;
+    box-shadow: 5px 15px 20px #8490ff;
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
+
+.card:hover h1 {
+    color: #fff;
+}
+
+.card:hover h2 {
+    color: #fff;
+    
+}
+
+.card:hover h4 {
+    color: #fff;
+}
+
+.card:hover p {
+    color: #fff;
+}
+
+.card:hover .link_button {
+    color: #8490ff;
+    background: #fff;
+}
+
+
+/* plan part end */
+
+
+/* footer part start */
+
+#foot_part {
+    margin-top: 80px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+}
+
+#foot_part h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 10px 10px 30px teal;
+}
+
+#foot_part span {
+    color: teal;
+font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* footer part end */
